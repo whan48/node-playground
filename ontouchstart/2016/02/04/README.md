@@ -10,7 +10,7 @@ https://bigdata-mindstorms.github.io/node-playground/ontouchstart/2016/02/04/pro
 
 Output
 ```shell
-curl -fsSL \
+$ curl -fsSL \
 > https://bigdata-mindstorms.github.io/node-playground/ontouchstart/2016/02/04/process.versions.js
 // node.js only
 if(process) { console.log(process.versions) }
