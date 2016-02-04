@@ -5,15 +5,15 @@ Always check the source first, make sure you understand it before send it throug
 Input
 ```shell
 curl -fsSL \
-https://bigdata-mindstorms.github.io/node-playground/ontouchstart/2016/02/04/process.versions.js
+https://bigdata-mindstorms.github.io/node-playground/ontouchstart/2016/02/04/versions.js
 ```
 
 Output
 ```shell
 $ curl -fsSL \
-> https://bigdata-mindstorms.github.io/node-playground/ontouchstart/2016/02/04/process.versions.js
+> https://bigdata-mindstorms.github.io/node-playground/ontouchstart/2016/02/04/versions.js
 if(typeof process === 'undefined' ) { // browser 
-  console.log('process is not defined');
+  console.log(navigator.userAgent);
 } 
 else { // node.js
   console.log(process.versions);
@@ -25,14 +25,14 @@ Now you can pipe it.
 Input
 ```shell
 curl -fsSL  \
-  https://bigdata-mindstorms.github.io/node-playground/ontouchstart/2016/02/04/process.versions.js | \
+  https://bigdata-mindstorms.github.io/node-playground/ontouchstart/2016/02/04/versions.js | \
   docker run --rm -a stdin -a stdout -i ontouchstart/docker-node:v4.2.6 node
 ```
 
 Output
 ```shell
 $ curl -fsSL  \
->   https://bigdata-mindstorms.github.io/node-playground/ontouchstart/2016/02/04/process.versions.js | \
+>   https://bigdata-mindstorms.github.io/node-playground/ontouchstart/2016/02/04/versions.js | \
 >   docker run --rm -a stdin -a stdout -i ontouchstart/docker-node:v4.2.6 node
 { http_parser: '2.5.0',
   node: '4.2.6',
@@ -47,14 +47,14 @@ $ curl -fsSL  \
 Input
 ```shell
 curl -fsSL  \
-  https://bigdata-mindstorms.github.io/node-playground/ontouchstart/2016/02/04/process.versions.js | \
+  https://bigdata-mindstorms.github.io/node-playground/ontouchstart/2016/02/04/versions.js | \
   docker run --rm -a stdin -a stdout -i node node
 ```
 
 Output
 ```shell
 $ curl -fsSL  \
->   https://bigdata-mindstorms.github.io/node-playground/ontouchstart/2016/02/04/process.versions.js | \
+>   https://bigdata-mindstorms.github.io/node-playground/ontouchstart/2016/02/04/versions.js | \
 >   docker run --rm -a stdin -a stdout -i node node
 { http_parser: '2.6.0',
   node: '5.5.0',
@@ -70,14 +70,14 @@ $ curl -fsSL  \
 Input
 ```shell
 curl -fsSL  \
-  https://bigdata-mindstorms.github.io/node-playground/ontouchstart/2016/02/04/process.versions.js | \
+  https://bigdata-mindstorms.github.io/node-playground/ontouchstart/2016/02/04/versions.js | \
   docker run --rm -a stdin -a stdout -i node:4.2.6 node
 ```
 
 Output
 ```shell
 $ curl -fsSL  \
->   https://bigdata-mindstorms.github.io/node-playground/ontouchstart/2016/02/04/process.versions.js | \
+>   https://bigdata-mindstorms.github.io/node-playground/ontouchstart/2016/02/04/versions.js | \
 >   docker run --rm -a stdin -a stdout -i node:4.2.6 node
 { http_parser: '2.5.0',
   node: '4.2.6',
