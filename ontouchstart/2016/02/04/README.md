@@ -4,12 +4,14 @@ Always check the source first, make sure you understand it before send it throug
 
 Input
 ```shell
-curl -fsSL https://bigdata-mindstorms.github.io/node-playground/ontouchstart/2016/02/04/process.versions.js
+curl -fsSL \
+https://bigdata-mindstorms.github.io/node-playground/ontouchstart/2016/02/04/process.versions.js
 ```
 
 Output
 ```shell
-$ curl -fsSL https://bigdata-mindstorms.github.io/node-playground/ontouchstart/2016/02/04/process.versions.js
+curl -fsSL \
+> https://bigdata-mindstorms.github.io/node-playground/ontouchstart/2016/02/04/process.versions.js
 // node.js only
 if(process) { console.log(process.versions) }
 ```
