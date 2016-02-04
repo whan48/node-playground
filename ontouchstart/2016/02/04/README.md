@@ -89,3 +89,7 @@ $ curl -fsSL  \
   modules: '46',
   openssl: '1.0.2e' }
 ```
+
+Source code: [versions.js](versions.js)
+
+Browser test: [versions.html](https://bigdata-mindstorms.github.io/node-playground/ontouchstart/2016/02/04/versions.html)
