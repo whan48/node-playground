@@ -12,8 +12,12 @@ Output
 ```shell
 $ curl -fsSL \
 > https://bigdata-mindstorms.github.io/node-playground/ontouchstart/2016/02/04/process.versions.js
-// node.js only
-if(process) { console.log(process.versions) }
+if(typeof process === 'undefined' ) { // browser 
+  console.log('process is not defined');
+} 
+else { // node.js
+  console.log(process.versions);
+}
 ```
 
 Now you can pipe it.
