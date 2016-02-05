@@ -26,6 +26,28 @@ Input
 ```shell
 curl -fsSL  \
   https://bigdata-mindstorms.github.io/node-playground/ontouchstart/2016/02/04/versions.js | \
+  docker run --rm -a stdin -a stdout -i ontouchstart/docker-node:v5.5.0 node
+```
+
+Output
+```shell
+$ curl -fsSL  \
+>   https://bigdata-mindstorms.github.io/node-playground/ontouchstart/2016/02/04/versions.js | \
+>   docker run --rm -a stdin -a stdout -i ontouchstart/docker-node:v5.5.0 node
+{ http_parser: '2.6.0',
+  node: '5.5.0',
+  v8: '4.6.85.31',
+  uv: '1.8.0',
+  zlib: '1.2.8',
+  ares: '1.10.1-DEV',
+  modules: '47',
+  openssl: '1.0.2e' }
+```
+
+Input
+```shell
+curl -fsSL  \
+  https://bigdata-mindstorms.github.io/node-playground/ontouchstart/2016/02/04/versions.js | \
   docker run --rm -a stdin -a stdout -i ontouchstart/docker-node:v4.2.6 node
 ```
 
