@@ -17,7 +17,10 @@ $ node
   icu: '56.1',
   modules: '46',
   openssl: '1.0.2f' }
+> process.platform
+'darwin'
 > process.exit()
+$ 
 ```
 
 That is it. Please post your result in the [lesson issue](https://github.com/bigdata-mindstorms/node-playground/issues/3).
