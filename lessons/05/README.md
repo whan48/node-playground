@@ -1,6 +1,6 @@
 # 05: JavaScript object literals 
 
-[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Literals)
+[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Object_literals)
 
 Let's practice more JavaScript object literals in node REPL.
 
