@@ -6,6 +6,8 @@
 
 [Youtube](https://www.youtube.com/watch?v=ztspvPYybIY)
 
+<video src="https://github.com/bigdata-mindstorms/node-playground/raw/gh-pages/hello_world.mp4" controls="true"></video>
+
 ```javascript
 var sys = require("sys");
 
