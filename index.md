@@ -5,8 +5,6 @@ layout: d3
 
 ## Ryan Dahl: Original Node.js presentation (2009)
 
-[![first demo](first_demo.png)](https://www.youtube.com/watch?v=ztspvPYybIY&t=18m40s)
-
 [Youtube](https://www.youtube.com/watch?v=ztspvPYybIY)
 
 <video src="https://github.com/bigdata-mindstorms/node-playground/raw/gh-pages/hello_world.mp4" controls="true"></video>
