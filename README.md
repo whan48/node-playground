@@ -2,9 +2,9 @@
 
 ## Ryan Dahl: Original Node.js presentation (2009)
 
-[![first demo](first_demo.png)](hello_world.mp4)
+[![first demo](first_demo.png)](https://www.youtube.com/watch?v=ztspvPYybIY&t=18m40s)
 
-[Youtube](https://www.youtube.com/watch?v=ztspvPYybIY&t=18m40s)
+[Youtube](https://www.youtube.com/watch?v=ztspvPYybIY)
 
 ```javascript
 var sys = require("sys");
