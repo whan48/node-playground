@@ -8,8 +8,6 @@ Let's practice more JavaScript object literals in node REPL.
 $ node
 > {org:'bigdata-mindstorms',repo:'node-playground',issues:7}
 { org: 'bigdata-mindstorms', repo: 'node-playground', issues: 7 }
-> {org:'bigdata-mindstorms',repo:'node-playground',issues:7,fun:true}
-{ org: 'bigdata-mindstorms', repo: 'node-playground', issues: 7 }
 > {org:'bigdata-mindstorms',repo:'node-playground',issues:7,fun:true} 
 { org: 'bigdata-mindstorms',
   repo: 'node-playground',
