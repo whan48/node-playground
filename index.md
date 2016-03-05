@@ -1,4 +1,5 @@
 ---
+layout: d3
 ---
 # node-playground
 
