@@ -18,3 +18,5 @@ $ node
 > (function (x, y) { return x + y; })(1, 2) // how you call the function
 3
 ```
+
+Practice: https://github.com/bigdata-mindstorms/node-playground/issues/9
