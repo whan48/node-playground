@@ -1,6 +1,6 @@
 # Functions that return `this`
 
-If a function is part of an object, `this` becomes that object itself. And we can also let the function return `this`
+If a function [is part of an object](https://github.com/bigdata-mindstorms/node-playground/tree/gh-pages/lessons/12), `this` becomes that object itself. And we can also let the function return `this`
 
 ```javascript
 $ node
