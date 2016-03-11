@@ -1,6 +1,6 @@
 # Functions that turn `this`
 
-If a function is part of an object, `this` becomes that object itself. And we can also let the function retun `this`
+If a function is part of an object, `this` becomes that object itself. And we can also let the function return `this`
 
 ```javascript
 $ node
