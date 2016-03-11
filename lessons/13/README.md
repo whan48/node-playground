@@ -61,11 +61,11 @@ hi you
 { name: 'you', set: [Function], hi: [Function] }
 ```
 
-This kind of pattern in which a function modifies its context and then return it
+The pattern in which a function modifies its context and then return it
 ```
 set: function(name) {this.name=name;return this;}
 ```
-it a powerful way to allow a technique calld __chain syntax__ (__method chaining__) , which is used in libraries like 
+is a powerful way to allow a technique calld __chain syntax__ (__method chaining__) , which is used in libraries like 
 [jQuery](http://ejohn.org/blog/ultra-chaining-with-jquery/) and [d3.js](http://alignedleft.com/tutorials/d3/chaining-methods).
 
 
