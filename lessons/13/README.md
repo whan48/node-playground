@@ -1,4 +1,4 @@
-# Functions that turn `this`
+# Functions that return `this`
 
 If a function is part of an object, `this` becomes that object itself. And we can also let the function return `this`
 
