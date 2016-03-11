@@ -65,7 +65,7 @@ The pattern in which a function modifies its context and then return it
 ```
 set: function(name) {this.name=name;return this;}
 ```
-is a powerful way to allow a technique calld __chain syntax__ (__method chaining__) , which is used in libraries like 
+allows a powerful technique calld __chain syntax__ (__method chaining__) , which is used in libraries like 
 [jQuery](http://ejohn.org/blog/ultra-chaining-with-jquery/) and [d3.js](http://alignedleft.com/tutorials/d3/chaining-methods).
 
 
