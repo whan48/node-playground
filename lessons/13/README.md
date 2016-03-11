@@ -26,7 +26,7 @@ $ node
 { name: 'you' }
 ```
 
-You can also have a function that change its context
+You can have a function that changes its context and return it:
 
 ```javascript
 $ node
@@ -38,7 +38,7 @@ $ node
 { name: 'you', set: [Function], hi: [Function] }
 ```
 
-If we keep this pattern, we can use call other functions for the "side effect", such as
+We can call functions for the "side effect", such as `console.log()`
 ```javascript
 $ node
 > ({name: 'test', set: function(name) {this.name=name;return this;}, hi: function(){console.log(`hi ${this.name}`);return this;}})
