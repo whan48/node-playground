@@ -1,6 +1,6 @@
 # Variable declaration and assignment
 
-As our REPL expressions getting longer and longer, it is time to introduce
+As our [REPL](https://github.com/bigdata-mindstorms/node-playground/blob/gh-pages/lessons/02/README.md) expressions getting longer and longer, it is time to introduce
 [variable statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var) ([变量声明语句](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/var)),
 which declares a variable, optionally initializing it to a value.
 
