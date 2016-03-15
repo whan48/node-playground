@@ -1,6 +1,6 @@
 # Prototype chain
 
-Let's review how to create a object with constructor
+Let's review how to create an object with constructor
 
 ```javascript
 $ node
@@ -12,7 +12,7 @@ Person { firstname: 'Adam' }
 undefined
 ```
 
-Now here comes a "magic" :smile: The constructor `Person` has a special property called `prototype`
+Now comes a "magic" :tophat: The constructor `Person` has a special property called `prototype`
 
 ```javascript
 > Person.prototype
