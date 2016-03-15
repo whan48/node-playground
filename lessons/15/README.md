@@ -71,7 +71,7 @@ that we will discuss in details later.
 First of all, `person9` was created with a constructor called `Person` but `person8` and the others 
 were created as object literals, hence the constructor is `Object`.
 
-```
+```javascript
 > person8.constructor
 [Function: Object]
 > person9.constructor
