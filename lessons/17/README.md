@@ -4,7 +4,7 @@ We learned how to create an object with constructor and add more properties to t
 
 ```javascript
 $ node
-function Person(firstname) { this.firstname = firstname }
+> function Person(firstname) { this.firstname = firstname }
 undefined
 > adam = new Person('Adam')
 Person { firstname: 'Adam' }
