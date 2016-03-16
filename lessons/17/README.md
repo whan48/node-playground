@@ -72,7 +72,7 @@ Person { firstname: 'Sam' }
 ```
 
 We can also set the `firstname` property by calling the constructor `Person(firstname)` 
-with our created object as the context use `bind`, `call`, or `apply`).
+with our created object as the context using `bind`, `call`, or `apply`.
 
 ```javascript
 > bob = Object.create(Person.prototype)
