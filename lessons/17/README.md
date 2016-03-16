@@ -71,4 +71,19 @@ Person { firstname: 'Sam' }
 'Sam Smith'
 ```
 
+We can also set the `firstname` property by calling the constructor `Person(firstname)` 
+with our created object as the context use `bind`, `call`, or `apply`).
+
+```javascript
+> bob = Object.create(Person.prototype)
+Person {}
+> bob.fullname()
+'undefined Smith'
+> Person.bind(bob)('Bob')
+Hi Bob
+undefined
+> bob.fullname()
+'Bob Smith'
+```
+
 Practice and discussion:  https://github.com/bigdata-mindstorms/node-playground/issues/21
