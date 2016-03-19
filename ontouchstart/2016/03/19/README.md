@@ -23,6 +23,12 @@ chmod u+x test.sh
 ```
 [RTFM](http://man7.org/linux/man-pages/man1/chmod.1.html)
 
+### Run [test.sh](test.sh)
+
+```shell
+./test.sh
+```
+
 ### output [test.output](test.output)
 
 ```
