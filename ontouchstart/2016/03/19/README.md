@@ -10,11 +10,11 @@ console.log(process.versions);
 
 ```shell
 #!/bin/sh
-node test.js | tee test.log
+node test.js | tee test.output
 ```
 [RTFM](http://man7.org/linux/man-pages/man1/tee.1.html)
 
-Output goes to both stdout and [test.log](test.log).
+Output goes to both stdout and [test.output](test.output).
 
 ## Make [test.sh](test.sh) executable
 
@@ -23,7 +23,7 @@ chmod u+x test.sh
 ```
 [RTFM](http://man7.org/linux/man-pages/man1/chmod.1.html)
 
-### output [test.log](test.log)
+### output [test.output](test.output)
 
 ```
 { http_parser: '2.5.2',
